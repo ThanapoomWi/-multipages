@@ -1,0 +1,32 @@
+.temp-container {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    width: auto;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.temp-container h2 {
+    padding: 0 20px;
+}
+
+.temp-title {
+    color: darkblue;
+}
+
+.temp-variable {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.temp-display {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.middle-span {
+    margin: 0 20px;
+}

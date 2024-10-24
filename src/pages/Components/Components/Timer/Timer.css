@@ -1,0 +1,31 @@
+.timer-container {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 400px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+p input{
+    width: 100%;
+    text-align: right;
+    padding: 0 20px;
+}
+
+.timer-display {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+.timer-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer-title {
+    color: darkblue;
+}

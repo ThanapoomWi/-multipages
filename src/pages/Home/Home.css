@@ -1,0 +1,42 @@
+.Home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #081b29;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 0 15px 50px 5px #75bbec;
+}
+
+.Home {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.Home-text {
+    width: auto;
+    justify-content: center;
+}
+
+.Home .myname {
+    width: 00px;
+    font-size: 48px;
+    text-shadow: 0 0 10px #75bbec;
+    transition: 0.3s;
+    color: #75bbec;
+}
+
+.Home .myname:hover {
+    text-shadow: 0 0 15px #75bbec;
+}
+
+.Home-text h2 {
+    color: white;
+}
+
+.Home .icon {
+    box-shadow: 0 0 5px 1px white;
+    border-radius: 50px;
+}

@@ -1,0 +1,33 @@
+.Main-container {
+  max-width: 1280px;
+  margin: 15px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./imgs/360_F_88981880_YjJManMJ6hJmKr5CZteFJAkEzXIh8mxW.jpg');
+  background-size: cover;
+}
+
+.Components-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  gap: 5px;
+  width: 880px;
+}
+
+.box-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.box-3 {
+  grid-column: 2/4;
+}
+
+.box-4 {
+  grid-column: 1/4;
+}

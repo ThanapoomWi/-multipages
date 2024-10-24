@@ -1,0 +1,29 @@
+.counter {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+}
+
+.counter h1 {
+    color: darkblue;
+    text-align: center;
+}
+/* .counter button {
+    background-color: black;
+    color: white;
+} */
+
+.counter span {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

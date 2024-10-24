@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball-container {
+   width: fit-content;
+   margin: 10px auto;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+#field {
+   /* width: 300px;
+   height: 200px; */
+   margin: 10px 10px;
+   background-image: url(./imgs/img.webp);
+   background-position: center;
+   background-size: 100%;
+   border-radius: 5px;
+}
+
+#ball {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background-image: url();
+   background-color: red;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   left: calc(350px - 50px - 2px);
+   top: calc(200px - 50px - 2px);
+}
+
+#control {
+  margin: 10px;
+}
+
+
